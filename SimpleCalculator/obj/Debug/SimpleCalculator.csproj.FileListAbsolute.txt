@@ -1,0 +1,7 @@
+D:\Data\Projects\Kuliah\Semester-6\STQA\10-03-2022\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.exe.config
+D:\Data\Projects\Kuliah\Semester-6\STQA\10-03-2022\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.exe
+D:\Data\Projects\Kuliah\Semester-6\STQA\10-03-2022\SimpleCalculator\SimpleCalculator\bin\Debug\SimpleCalculator.pdb
+D:\Data\Projects\Kuliah\Semester-6\STQA\10-03-2022\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.AssemblyReference.cache
+D:\Data\Projects\Kuliah\Semester-6\STQA\10-03-2022\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.CoreCompileInputs.cache
+D:\Data\Projects\Kuliah\Semester-6\STQA\10-03-2022\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.exe
+D:\Data\Projects\Kuliah\Semester-6\STQA\10-03-2022\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.pdb
