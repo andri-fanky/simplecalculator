@@ -5,3 +5,6 @@ D:\Data\Projects\Kuliah\Semester-6\STQA\10-03-2022\SimpleCalculator\SimpleCalcul
 D:\Data\Projects\Kuliah\Semester-6\STQA\10-03-2022\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.CoreCompileInputs.cache
 D:\Data\Projects\Kuliah\Semester-6\STQA\10-03-2022\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.exe
 D:\Data\Projects\Kuliah\Semester-6\STQA\10-03-2022\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.pdb
+D:\Data\Projects\Kuliah\Semester-6\STQA\10-03-2022\SimpleCalculator\SimpleCalculator\bin\Debug\nunit.framework.dll
+D:\Data\Projects\Kuliah\Semester-6\STQA\10-03-2022\SimpleCalculator\SimpleCalculator\bin\Debug\nunit.framework.xml
+D:\Data\Projects\Kuliah\Semester-6\STQA\10-03-2022\SimpleCalculator\SimpleCalculator\obj\Debug\SimpleCalculator.csproj.CopyComplete

@@ -19,7 +19,7 @@ namespace SimpleCalculator
         /// <remarks>method Main menampilkan menu, menerima input, dan memanggil method operasi pada class Kalkulator</remarks>
         static void Main(string[] args)
         {
-            Kalkulator kalkulator = new Kalkulator();
+            Calculator calculator = new Calculator();
             bool exit = false;
             while (!exit)
             {
@@ -52,16 +52,16 @@ namespace SimpleCalculator
                         switch (pilihan)
                         {
                             case 1:
-                                keterangan = "Hasil penjumlahan bilangan " + bil1 + " dan " + bil2 + " adalah " + kalkulator.Penjumlahan(bil1, bil2);
+                                keterangan = "Hasil penjumlahan bilangan " + bil1 + " dan " + bil2 + " adalah " + calculator.Penjumlahan(bil1, bil2);
                                 break;
                             case 2:
-                                keterangan = "Hasil pengurangan bilangan " + bil1 + " dan " + bil2 + " adalah " + kalkulator.Pengurangan(bil1, bil2);
+                                keterangan = "Hasil pengurangan bilangan " + bil1 + " dan " + bil2 + " adalah " + calculator.Pengurangan(bil1, bil2);
                                 break;
                             case 3:
-                                keterangan = "Hasil perkalian bilangan " + bil1 + " dan " + bil2 + " adalah " + kalkulator.Perkalian(bil1, bil2);
+                                keterangan = "Hasil perkalian bilangan " + bil1 + " dan " + bil2 + " adalah " + calculator.Perkalian(bil1, bil2);
                                 break;
                             case 4:
-                                keterangan = "Hasil pembagian bilangan " + bil1 + " dan " + bil2 + " adalah " + kalkulator.Pembagian(bil1, bil2);
+                                keterangan = "Hasil pembagian bilangan " + bil1 + " dan " + bil2 + " adalah " + calculator.Pembagian(bil1, bil2);
                                 break;
                         }
                         Console.WriteLine(keterangan);
@@ -83,57 +83,6 @@ namespace SimpleCalculator
                     Console.WriteLine("");
                 }
             }
-        }
-    }
-
-    /// <summary>
-    /// Kalkulator class
-    /// </summary>
-    /// <remarks>class Kalkulator dapat membuat operasi tambah, kurang, kali, bagi</remarks>
-    class Kalkulator
-    {
-        /// <summary>
-        /// operasi penjumlahan
-        /// </summary>
-        /// <param name="bil1">bilangan pertama dalam operasi penjumlahan</param>
-        /// <param name="bil2">bilangan kedua yang akan ditambah dengan bilangan pertama</param>
-        /// <returns>hasil dari penjumlahan bilangan pertama dan bilangan kedua</returns>
-        public double Penjumlahan(double bil1, double bil2)
-        {
-            return bil1 + bil2;
-        }
-
-        /// <summary>
-        /// operasi pengurangan
-        /// </summary>
-        /// <param name="bil1">bilangan pertama dalam operasi pengurangan</param>
-        /// <param name="bil2">bilangan kedua yang akan mengurangi bilangan pertama</param>
-        /// <returns>hasil dari pengurangan bilangan pertama dan bilangan kedua</returns>
-        public double Pengurangan(double bil1, double bil2)
-        {
-            return bil1 - bil2;
-        }
-
-        /// <summary>
-        /// operasi perkalian
-        /// </summary>
-        /// <param name="bil1">bilangan pertama dalam operasi perkalian</param>
-        /// <param name="bil2">bilangan kedua yang akan dikali dengan bilangan pertama</param>
-        /// <returns>hasil dari perkalian bilangan pertama dan bilangan kedua</returns>
-        public double Perkalian(double bil1, double bil2)
-        {
-            return bil1 * bil2;
-        }
-
-        /// <summary>
-        /// operasi pembagian
-        /// </summary>
-        /// <param name="bil1">bilangan pertama dalam operasi pembagian</param>
-        /// <param name="bil2">bilangan kedua yang akan membagi bilangan pertama</param>
-        /// <returns>hasil dari pembagian bilangan pertama dan bilangan kedua</returns>
-        public double Pembagian(double bil1, double bil2)
-        {
-            return bil1 / bil2;
         }
     }
 }
